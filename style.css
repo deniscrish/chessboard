@@ -1,0 +1,91 @@
+.main-block {
+    width: 560px;
+    height: 560px;
+    margin: 100px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.block {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.black {
+    background: #000;
+}
+
+.white {
+    background: #fff;
+}
+
+.top-name {
+    display: flex;
+    position: absolute;
+    top: -60px;
+
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: black;
+    width: 510px;
+    margin-bottom: 32px;
+}
+
+.letter {
+    padding-left: 17px;
+    padding-right: 15px;
+}
+
+.bottom-name {
+    display: flex;
+    position: absolute;
+    top: 560px;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: black;
+    width: 510px;
+    margin-bottom: 32px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.left-name {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -60px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 74px;
+
+    color: black;
+    width: 510px;
+    margin-bottom: 32px;
+}
+
+.right-name {
+    /*  display: flex;
+    flex-direction: column; */
+    position: absolute;
+    left: 560px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 74px;
+    color: black;
+    width: 510px;
+    margin-bottom: 32px;
+}
+
+.up-down {
+    margin-bottom: -5px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
